@@ -11,7 +11,7 @@ SECRET_KEY = env(
     default="mdRQvHCetV2p5KxHUYPnoNATIQ6Q8yEuhfoFrhNyOnQn0RJXKSMSrv4PO3mfdy2N",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", "gwen-desktop.local"]
 
 # CACHES
 # ------------------------------------------------------------------------------
