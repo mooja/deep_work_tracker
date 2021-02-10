@@ -275,3 +275,4 @@ deep_work_tracker/media/
 .env
 .envs/*
 !.envs/.local/
+.venv/*
