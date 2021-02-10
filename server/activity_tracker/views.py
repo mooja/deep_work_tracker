@@ -1,3 +1,12 @@
-from django.shortcuts import render
+from activity_tracker.models import Activity
 
-# Create your views here.
+from rest_framework import viewsets
+from rest_framework import permissions
+
+from activity_tracker.serializers import ActivitySerializer
+
+
+class ActivityViewSet(viewsets.ModelViewSet):
+    queryset = Activity.objects.all()
+    serializer_class = ActivitySerializer
+    permission_classes = []
